@@ -36,6 +36,7 @@ Executa algo quando o container já esta executado
 Faz basicamente a mesma função que o CMD
 
 (Quando os dois estão declarados, o CMD entra como parâmetro)
+**OBS:** Não é possível usar o ENV junto do ENTRYPOINT.
 
 ---
 - **WORKDIR**
@@ -47,6 +48,7 @@ Tipo o diretório padrão do sistema
 
 Criação de uma variável de ambiente
 (Uso para referênciar uma aplicação de dentro para o container e vice versa)
+**OBS:** Não é possível usar o ENV junto do ENTRYPOINT.
 
 ---
 - **EXPOSE**
